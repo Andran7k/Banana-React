@@ -1,0 +1,70 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bnn {
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 630px;
+}
+
+.controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weight-controls {
+  width: 35px;
+  height: 35px;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: yellow;
+  font-size: 30px;
+  color: black;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.weight-controls:hover {
+  transform: scale(1.1);
+  background-color: lime;
+}
+
+
+.PriceInterface {
+  max-width: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Pieces {
+  max-width: 50px;
+background: #282c34;  
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  border-bottom: solid 5px yellow;
+  color: white;
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
